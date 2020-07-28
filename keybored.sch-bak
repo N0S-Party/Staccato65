@@ -1,0 +1,70 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:ATMEGA32U4 U1
+U 1 1 5F1FA654
+P 5300 7700
+F 0 "U1" H 5325 9037 60  0000 C CNN
+F 1 "ATMEGA32U4" H 5325 8931 60  0000 C CNN
+F 2 "" H 5300 7700 60  0000 C CNN
+F 3 "" H 5300 7700 60  0000 C CNN
+	1    5300 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 5F1FB4C4
+P 1350 7200
+F 0 "J?" H 1457 8067 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1457 7976 50  0000 C CNN
+F 2 "" H 1500 7200 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1500 7200 50  0001 C CNN
+	1    1350 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 6850 0    50   Input ~ 0
+USB_D-
+Text GLabel 4250 6950 0    50   Input ~ 0
+USB_D+
+Text GLabel 1950 7100 2    50   Input ~ 0
+USB_D-
+Text GLabel 1950 7200 2    50   Input ~ 0
+USB_D-
+Text GLabel 1950 7300 2    50   Input ~ 0
+USB_D+
+Text GLabel 1950 7400 2    50   Input ~ 0
+USB_D+
+$Comp
+L power:GND #PWR?
+U 1 1 5F2128CD
+P 1350 8250
+F 0 "#PWR?" H 1350 8000 50  0001 C CNN
+F 1 "GND" H 1355 8077 50  0000 C CNN
+F 2 "" H 1350 8250 50  0001 C CNN
+F 3 "" H 1350 8250 50  0001 C CNN
+	1    1350 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 8100 1350 8150
+Wire Wire Line
+	1050 8100 1050 8150
+Wire Wire Line
+	1050 8150 1350 8150
+Connection ~ 1350 8150
+Wire Wire Line
+	1350 8150 1350 8250
+$EndSCHEMATC

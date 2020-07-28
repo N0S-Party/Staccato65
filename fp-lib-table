@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Type-C)(type KiCad)(uri "E:/KiCad_Libraries/Footprint Libraries/Type-C.pretty")(options "")(descr ""))
+)
