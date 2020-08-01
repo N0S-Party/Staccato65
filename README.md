@@ -16,7 +16,7 @@ My first attempt at making a keyboard PCB. Perhaps we'll start at a 65% board, t
 Basically the layout will be similar to the Satisfaction75 and ID80, but without the function row. 
 I also really like the look of the Discipline keyboards, so the layout of the diodes will somewhat try to reflect that. 
 
-One of my current concerns is that the firmware size might end up too big, since I'll have to use QMK's I2C and ADC libraries in addition to multiple keyboard layouts -- 
+One of my current concerns is that the firmware size might end up too big, since I'll have to use QMK's I2C and roatry encoder libraries in addition to multiple keyboard layouts -- 
 but I guess we'll see once we get there.
 
 ## Update 8/1
