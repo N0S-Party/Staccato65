@@ -30,3 +30,6 @@ I'm also planning to save the SCK, MOSI and MISO pins for ISP usage, in case I e
 
 ## Update 8/4
 Modified the matrix to now use 10 columns and 7 rows. This allows for a maximum of 69 switches and 1 rotary encoder switch. With the rotary encoder and OLED screen added, this oleaves the microcontroller with only one GPIO pin available (which means I *could* turn this into a 75% keyboard). I did come across [mr.keeb's PCB generator](https://builder.mrkeebs.com), but for some reason there is a bug that messes up the layout if you use a non-standard matrix; Can't say I'm not happy, since this means that my previous work wasn't all for nothing. I'm planning on using Kailh hot-swap sockets, but I might undo this if I find that it's too costly. 
+
+## Update 8/6
+Got to making the key layout on the PCB. I'm thankful I have a spare top plate and a caliper to help me confirm my switch placement. A modification I made from my initial plan is that I'm now using the "columns" in the schematics as rows. I need about 14 keys per row, and have 7 keys per column in the schematic makes that transform easy. I'll now have two disjoint traces per row on the PCB. Also, I can't get that damn encoder footprint to be centered... I'll leave that for next time.
