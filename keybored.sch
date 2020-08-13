@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:keybored-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1803,9 +1802,6 @@ Wire Wire Line
 Connection ~ 7750 3500
 Wire Wire Line
 	7750 3500 7750 4000
-Connection ~ 8500 3500
-Wire Wire Line
-	8500 3500 8500 4000
 Connection ~ 10000 3500
 Wire Wire Line
 	10000 3500 10000 4000
@@ -1971,17 +1967,6 @@ F 3 "" H 9700 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K55
-U 1 1 5FC3638E
-P 8200 4000
-F 0 "K55" H 8200 4000 60  0000 C CNN
-F 1 "KEYSW" H 8200 3900 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8200 4000 60  0001 C CNN
-F 3 "" H 8200 4000 60  0000 C CNN
-	1    8200 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L keyboard_parts:KEYSW K62
 U 1 1 5FC36388
 P 8950 4000
@@ -2082,9 +2067,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 4400 8650 4400
 Connection ~ 8650 4400
-Wire Wire Line
-	8650 4400 7900 4400
-Connection ~ 7900 4400
 Connection ~ 6400 4400
 Wire Wire Line
 	6400 4400 5650 4400
@@ -2117,19 +2099,6 @@ F 3 "~" H 8650 4250 50  0001 C CNN
 	1    8650 4250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D D55
-U 1 1 5F3D61EE
-P 7900 4250
-F 0 "D55" V 7900 4200 50  0000 R CNN
-F 1 "D" V 7900 4200 50  0001 R CNN
-F 2 "keybored:DO-35_SOD27_5.08mm" H 7900 4250 50  0001 C CNN
-F 3 "~" H 7900 4250 50  0001 C CNN
-	1    7900 4250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7900 4400 7150 4400
 Wire Wire Line
 	7150 4400 6400 4400
 Connection ~ 7150 4400
@@ -2294,8 +2263,6 @@ Wire Wire Line
 Wire Wire Line
 	6400 4100 6400 4000
 Wire Wire Line
-	7900 4000 7900 4100
-Wire Wire Line
 	8650 4000 8650 4100
 Wire Wire Line
 	9400 4000 9400 4100
@@ -2420,17 +2387,6 @@ Text GLabel 5450 7500 0    50   Input ~ 0
 rotA
 Text GLabel 5450 7100 0    50   Input ~ 0
 rotB
-$Comp
-L keybored-rescue:SSD1306-Display_Graphic U2
-U 1 1 5F2B3459
-P 13700 7250
-F 0 "U2" H 13650 7350 50  0000 L CNN
-F 1 "SSD1306" H 13550 7250 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 13750 7250 50  0001 C CNN
-F 3 "" H 13750 7250 50  0001 C CNN
-	1    13700 7250
-	1    0    0    -1  
-$EndComp
 Text Notes 9050 6750 0    118  ~ 0
 Reset
 Text Notes 10650 6750 0    118  ~ 0
@@ -2439,9 +2395,9 @@ Text Notes 13300 6750 0    118  ~ 0
 OLED
 Text Notes 2450 6150 0    118  ~ 0
 USB C
-Text GLabel 13400 7600 0    50   Input ~ 0
+Text GLabel 13150 7600 0    50   Input ~ 0
 I2C_SCL
-Text GLabel 13400 7700 0    50   Input ~ 0
+Text GLabel 13150 7700 0    50   Input ~ 0
 I2C_SDA
 $Comp
 L power:GND #PWR019
@@ -2478,11 +2434,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 4000 6250 4500
 Wire Wire Line
-	7000 4000 7000 4500
-Wire Wire Line
 	7750 4000 7750 4500
-Wire Wire Line
-	8500 4000 8500 4500
 Wire Wire Line
 	10000 4000 10000 4500
 $Comp
@@ -2497,17 +2449,6 @@ F 3 "" H 5950 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K56
-U 1 1 5F586ED6
-P 8200 4500
-F 0 "K56" H 8200 4500 60  0000 C CNN
-F 1 "KEYSW" H 8200 4400 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8200 4500 60  0001 C CNN
-F 3 "" H 8200 4500 60  0000 C CNN
-	1    8200 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L keyboard_parts:KEYSW K63
 U 1 1 5F586EDC
 P 8950 4500
@@ -2516,17 +2457,6 @@ F 1 "KEYSW" H 8950 4400 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket_MX" H 8950 4500 60  0001 C CNN
 F 3 "" H 8950 4500 60  0000 C CNN
 	1    8950 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:KEYSW K42
-U 1 1 5F586EE2
-P 6700 4500
-F 0 "K42" H 6700 4500 60  0000 C CNN
-F 1 "KEYSW" H 6700 4400 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 6700 4500 60  0001 C CNN
-F 3 "" H 6700 4500 60  0000 C CNN
-	1    6700 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2590,12 +2520,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 4900 8650 4900
 Connection ~ 8650 4900
-Wire Wire Line
-	8650 4900 7900 4900
-Connection ~ 7900 4900
-Connection ~ 6400 4900
-Wire Wire Line
-	6400 4900 5650 4900
 Connection ~ 5650 4900
 Connection ~ 4150 4900
 Wire Wire Line
@@ -2625,21 +2549,6 @@ F 3 "~" H 8650 4750 50  0001 C CNN
 	1    8650 4750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D D56
-U 1 1 5F586F26
-P 7900 4750
-F 0 "D56" V 7900 4700 50  0000 R CNN
-F 1 "D" V 7900 4700 50  0001 R CNN
-F 2 "keybored:DO-35_SOD27_5.08mm" H 7900 4750 50  0001 C CNN
-F 3 "~" H 7900 4750 50  0001 C CNN
-	1    7900 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7900 4900 7150 4900
-Wire Wire Line
-	7150 4900 6400 4900
 Connection ~ 7150 4900
 $Comp
 L Device:D D49
@@ -2650,17 +2559,6 @@ F 1 "D" V 7150 4700 50  0001 R CNN
 F 2 "keybored:DO-35_SOD27_5.08mm" H 7150 4750 50  0001 C CNN
 F 3 "~" H 7150 4750 50  0001 C CNN
 	1    7150 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D42
-U 1 1 5F586F35
-P 6400 4750
-F 0 "D42" V 6400 4700 50  0000 R CNN
-F 1 "D" V 6400 4700 50  0001 R CNN
-F 2 "keybored:DO-35_SOD27_5.08mm" H 6400 4750 50  0001 C CNN
-F 3 "~" H 6400 4750 50  0001 C CNN
-	1    6400 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2738,10 +2636,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 4500 5650 4600
 Wire Wire Line
-	6400 4600 6400 4500
-Wire Wire Line
-	7900 4500 7900 4600
-Wire Wire Line
 	8650 4500 8650 4600
 Wire Wire Line
 	9400 4500 9400 4600
@@ -2750,4 +2644,216 @@ Wire Wire Line
 Text GLabel 5450 8300 0    50   Input ~ 0
 row6
 NoConn ~ 5450 6400
+$Comp
+L power:VCC #PWR0101
+U 1 1 5F33637E
+P 2900 9300
+F 0 "#PWR0101" H 2900 9150 50  0001 C CNN
+F 1 "VCC" H 2917 9473 50  0000 C CNN
+F 2 "" H 2900 9300 50  0001 C CNN
+F 3 "" H 2900 9300 50  0001 C CNN
+	1    2900 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F339A3E
+P 2900 9750
+F 0 "#PWR0102" H 2900 9500 50  0001 C CNN
+F 1 "GND" H 2905 9577 50  0000 C CNN
+F 2 "" H 2900 9750 50  0001 C CNN
+F 3 "" H 2900 9750 50  0001 C CNN
+	1    2900 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5F336E11
+P 2900 9500
+F 0 "C6" H 2992 9546 50  0000 L CNN
+F 1 "0.1u" H 2992 9455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 9500 50  0001 C CNN
+F 3 "~" H 2900 9500 50  0001 C CNN
+	1    2900 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5F339CE1
+P 3250 9500
+F 0 "C7" H 3342 9546 50  0000 L CNN
+F 1 "0.1u" H 3342 9455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 9500 50  0001 C CNN
+F 3 "~" H 3250 9500 50  0001 C CNN
+	1    3250 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5F34CDB2
+P 3600 9500
+F 0 "C8" H 3692 9546 50  0000 L CNN
+F 1 "0.1u" H 3692 9455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 9500 50  0001 C CNN
+F 3 "~" H 3600 9500 50  0001 C CNN
+	1    3600 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5F360026
+P 3950 9500
+F 0 "C9" H 4042 9546 50  0000 L CNN
+F 1 "0.1u" H 4042 9455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3950 9500 50  0001 C CNN
+F 3 "~" H 3950 9500 50  0001 C CNN
+	1    3950 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5F378ED5
+P 4300 9500
+F 0 "C10" H 4392 9546 50  0000 L CNN
+F 1 "0.1u" H 4392 9455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 9500 50  0001 C CNN
+F 3 "~" H 4300 9500 50  0001 C CNN
+	1    4300 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5F378EDB
+P 4650 9500
+F 0 "C11" H 4742 9546 50  0000 L CNN
+F 1 "0.1u" H 4742 9455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 9500 50  0001 C CNN
+F 3 "~" H 4650 9500 50  0001 C CNN
+	1    4650 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 5F378EE7
+P 5000 9500
+F 0 "C13" H 5092 9546 50  0000 L CNN
+F 1 "4.7u" H 5092 9455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 9500 50  0001 C CNN
+F 3 "~" H 5000 9500 50  0001 C CNN
+	1    5000 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 9300 2900 9400
+Wire Wire Line
+	2900 9750 2900 9600
+Wire Wire Line
+	2900 9600 3250 9600
+Connection ~ 2900 9600
+Connection ~ 3250 9600
+Wire Wire Line
+	3250 9600 3600 9600
+Connection ~ 3600 9600
+Wire Wire Line
+	3600 9600 3950 9600
+Connection ~ 3950 9600
+Wire Wire Line
+	3950 9600 4300 9600
+Connection ~ 4300 9600
+Wire Wire Line
+	4300 9600 4650 9600
+Connection ~ 4650 9600
+Connection ~ 2900 9400
+Connection ~ 3250 9400
+Wire Wire Line
+	3250 9400 2900 9400
+Connection ~ 3600 9400
+Wire Wire Line
+	3600 9400 3250 9400
+Connection ~ 3950 9400
+Wire Wire Line
+	3950 9400 3600 9400
+Connection ~ 4300 9400
+Wire Wire Line
+	4300 9400 3950 9400
+Connection ~ 4650 9400
+Wire Wire Line
+	4650 9400 4300 9400
+$Comp
+L Device:R R9
+U 1 1 5F34D125
+P 13200 7950
+F 0 "R9" H 13050 8000 50  0000 L CNN
+F 1 "4.7k" H 13000 7900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13130 7950 50  0001 C CNN
+F 3 "~" H 13200 7950 50  0001 C CNN
+	1    13200 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F365D37
+P 13250 8150
+F 0 "#PWR0103" H 13250 8000 50  0001 C CNN
+F 1 "VCC" V 13265 8277 50  0000 L CNN
+F 2 "" H 13250 8150 50  0001 C CNN
+F 3 "" H 13250 8150 50  0001 C CNN
+	1    13250 8150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5F3920FA
+P 13300 7950
+F 0 "R10" H 13350 8000 50  0000 L CNN
+F 1 "4.7k" H 13350 7900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13230 7950 50  0001 C CNN
+F 3 "~" H 13300 7950 50  0001 C CNN
+	1    13300 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 7600 13300 7600
+Wire Wire Line
+	13150 7700 13200 7700
+Wire Wire Line
+	13300 7800 13300 7600
+Connection ~ 13300 7600
+Wire Wire Line
+	13300 7600 13150 7600
+Wire Wire Line
+	13200 7800 13200 7700
+Connection ~ 13200 7700
+Wire Wire Line
+	13200 7700 13400 7700
+Wire Wire Line
+	13200 8100 13200 8150
+Wire Wire Line
+	13200 8150 13250 8150
+Wire Wire Line
+	13250 8150 13300 8150
+Wire Wire Line
+	13300 8150 13300 8100
+Connection ~ 13250 8150
+$Comp
+L keybored-rescue:SSD1306-Display_Graphic U2
+U 1 1 5F5DD021
+P 13700 7250
+F 0 "U2" H 13650 7200 50  0000 L CNN
+F 1 "SSD1306-Display_Graphic" H 13500 6700 50  0000 L CNN
+F 2 "keybored:SSD1306_OLED_128x32_0.91_inch" H 13750 7250 50  0001 C CNN
+F 3 "" H 13750 7250 50  0001 C CNN
+	1    13700 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 9400 5000 9400
+Wire Wire Line
+	4650 9600 5000 9600
+Wire Wire Line
+	7150 4900 8650 4900
+Wire Wire Line
+	7150 4400 8650 4400
+Wire Wire Line
+	5650 4900 7150 4900
 $EndSCHEMATC
