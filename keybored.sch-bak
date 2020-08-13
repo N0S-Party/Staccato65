@@ -1802,9 +1802,6 @@ Wire Wire Line
 Connection ~ 7750 3500
 Wire Wire Line
 	7750 3500 7750 4000
-Connection ~ 8500 3500
-Wire Wire Line
-	8500 3500 8500 4000
 Connection ~ 10000 3500
 Wire Wire Line
 	10000 3500 10000 4000
@@ -1970,17 +1967,6 @@ F 3 "" H 9700 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K55
-U 1 1 5FC3638E
-P 8200 4000
-F 0 "K55" H 8200 4000 60  0000 C CNN
-F 1 "KEYSW" H 8200 3900 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8200 4000 60  0001 C CNN
-F 3 "" H 8200 4000 60  0000 C CNN
-	1    8200 4000
-	1    0    0    -1  
-$EndComp
-$Comp
 L keyboard_parts:KEYSW K62
 U 1 1 5FC36388
 P 8950 4000
@@ -2081,9 +2067,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 4400 8650 4400
 Connection ~ 8650 4400
-Wire Wire Line
-	8650 4400 7900 4400
-Connection ~ 7900 4400
 Connection ~ 6400 4400
 Wire Wire Line
 	6400 4400 5650 4400
@@ -2116,19 +2099,6 @@ F 3 "~" H 8650 4250 50  0001 C CNN
 	1    8650 4250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D D55
-U 1 1 5F3D61EE
-P 7900 4250
-F 0 "D55" V 7900 4200 50  0000 R CNN
-F 1 "D" V 7900 4200 50  0001 R CNN
-F 2 "keybored:DO-35_SOD27_5.08mm" H 7900 4250 50  0001 C CNN
-F 3 "~" H 7900 4250 50  0001 C CNN
-	1    7900 4250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7900 4400 7150 4400
 Wire Wire Line
 	7150 4400 6400 4400
 Connection ~ 7150 4400
@@ -2292,8 +2262,6 @@ Wire Wire Line
 	5650 4000 5650 4100
 Wire Wire Line
 	6400 4100 6400 4000
-Wire Wire Line
-	7900 4000 7900 4100
 Wire Wire Line
 	8650 4000 8650 4100
 Wire Wire Line
@@ -2466,11 +2434,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 4000 6250 4500
 Wire Wire Line
-	7000 4000 7000 4500
-Wire Wire Line
 	7750 4000 7750 4500
-Wire Wire Line
-	8500 4000 8500 4500
 Wire Wire Line
 	10000 4000 10000 4500
 $Comp
@@ -2485,17 +2449,6 @@ F 3 "" H 5950 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K56
-U 1 1 5F586ED6
-P 8200 4500
-F 0 "K56" H 8200 4500 60  0000 C CNN
-F 1 "KEYSW" H 8200 4400 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 8200 4500 60  0001 C CNN
-F 3 "" H 8200 4500 60  0000 C CNN
-	1    8200 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L keyboard_parts:KEYSW K63
 U 1 1 5F586EDC
 P 8950 4500
@@ -2504,17 +2457,6 @@ F 1 "KEYSW" H 8950 4400 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket_MX" H 8950 4500 60  0001 C CNN
 F 3 "" H 8950 4500 60  0000 C CNN
 	1    8950 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:KEYSW K42
-U 1 1 5F586EE2
-P 6700 4500
-F 0 "K42" H 6700 4500 60  0000 C CNN
-F 1 "KEYSW" H 6700 4400 60  0001 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 6700 4500 60  0001 C CNN
-F 3 "" H 6700 4500 60  0000 C CNN
-	1    6700 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2578,12 +2520,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 4900 8650 4900
 Connection ~ 8650 4900
-Wire Wire Line
-	8650 4900 7900 4900
-Connection ~ 7900 4900
-Connection ~ 6400 4900
-Wire Wire Line
-	6400 4900 5650 4900
 Connection ~ 5650 4900
 Connection ~ 4150 4900
 Wire Wire Line
@@ -2613,21 +2549,6 @@ F 3 "~" H 8650 4750 50  0001 C CNN
 	1    8650 4750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D D56
-U 1 1 5F586F26
-P 7900 4750
-F 0 "D56" V 7900 4700 50  0000 R CNN
-F 1 "D" V 7900 4700 50  0001 R CNN
-F 2 "keybored:DO-35_SOD27_5.08mm" H 7900 4750 50  0001 C CNN
-F 3 "~" H 7900 4750 50  0001 C CNN
-	1    7900 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7900 4900 7150 4900
-Wire Wire Line
-	7150 4900 6400 4900
 Connection ~ 7150 4900
 $Comp
 L Device:D D49
@@ -2638,17 +2559,6 @@ F 1 "D" V 7150 4700 50  0001 R CNN
 F 2 "keybored:DO-35_SOD27_5.08mm" H 7150 4750 50  0001 C CNN
 F 3 "~" H 7150 4750 50  0001 C CNN
 	1    7150 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D42
-U 1 1 5F586F35
-P 6400 4750
-F 0 "D42" V 6400 4700 50  0000 R CNN
-F 1 "D" V 6400 4700 50  0001 R CNN
-F 2 "keybored:DO-35_SOD27_5.08mm" H 6400 4750 50  0001 C CNN
-F 3 "~" H 6400 4750 50  0001 C CNN
-	1    6400 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2725,10 +2635,6 @@ Wire Wire Line
 	4900 4500 4900 4600
 Wire Wire Line
 	5650 4500 5650 4600
-Wire Wire Line
-	6400 4600 6400 4500
-Wire Wire Line
-	7900 4500 7900 4600
 Wire Wire Line
 	8650 4500 8650 4600
 Wire Wire Line
@@ -2827,25 +2733,14 @@ F 3 "~" H 4650 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C12
-U 1 1 5F378EE1
+L Device:C_Small C13
+U 1 1 5F378EE7
 P 5000 9500
-F 0 "C12" H 5092 9546 50  0000 L CNN
-F 1 "0.1u" H 5092 9455 50  0000 L CNN
+F 0 "C13" H 5092 9546 50  0000 L CNN
+F 1 "4.7u" H 5092 9455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 9500 50  0001 C CNN
 F 3 "~" H 5000 9500 50  0001 C CNN
 	1    5000 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C13
-U 1 1 5F378EE7
-P 5350 9500
-F 0 "C13" H 5442 9546 50  0000 L CNN
-F 1 "4.7u" H 5442 9455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5350 9500 50  0001 C CNN
-F 3 "~" H 5350 9500 50  0001 C CNN
-	1    5350 9500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2868,13 +2763,6 @@ Connection ~ 4300 9600
 Wire Wire Line
 	4300 9600 4650 9600
 Connection ~ 4650 9600
-Wire Wire Line
-	4650 9600 5000 9600
-Connection ~ 5000 9600
-Wire Wire Line
-	5000 9600 5350 9600
-Wire Wire Line
-	5350 9400 5000 9400
 Connection ~ 2900 9400
 Connection ~ 3250 9400
 Wire Wire Line
@@ -2891,9 +2779,6 @@ Wire Wire Line
 Connection ~ 4650 9400
 Wire Wire Line
 	4650 9400 4300 9400
-Connection ~ 5000 9400
-Wire Wire Line
-	5000 9400 4650 9400
 $Comp
 L Device:R R9
 U 1 1 5F34D125
@@ -2956,9 +2841,19 @@ U 1 1 5F5DD021
 P 13700 7250
 F 0 "U2" H 13650 7200 50  0000 L CNN
 F 1 "SSD1306-Display_Graphic" H 13500 6700 50  0000 L CNN
-F 2 "" H 13750 7250 50  0001 C CNN
+F 2 "keybored:SSD1306_OLED_128x32_0.91_inch" H 13750 7250 50  0001 C CNN
 F 3 "" H 13750 7250 50  0001 C CNN
 	1    13700 7250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4650 9400 5000 9400
+Wire Wire Line
+	4650 9600 5000 9600
+Wire Wire Line
+	7150 4900 8650 4900
+Wire Wire Line
+	7150 4400 8650 4400
+Wire Wire Line
+	5650 4900 7150 4900
 $EndSCHEMATC
