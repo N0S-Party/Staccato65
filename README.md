@@ -10,7 +10,7 @@ My first attempt at making a keyboard PCB. A 65% board with OLED and rotary enco
 * hot-swappable (if I don't end up cutting costs!)
 
 **Design goals:**
-* seperated arrow keys
+* separated arrow keys
 * 1.5u alt & ctrl keys with 1.75u shift
 * aesthetically pleasing through-hole diode layout on the front layer
 
