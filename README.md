@@ -1,4 +1,4 @@
-# Keybored65
+# Staccato65
 My first attempt at making a keyboard PCB. A 65% board with OLED and rotary encoder support
 
 **Specs:** 
@@ -37,6 +37,6 @@ Got to making the key layout on the PCB. I'm thankful I have a spare top plate a
 ## Update 8/12
 I haven't updated here in a while, but that doesn't mean I haven't been working hard! I've finally managed to finish routing the PCB to a degree that I'm satisfied with. I might have to work a bit more on making the top right routing better, but I'd say the key routing was not too shabby. Fun fact, using Kicad 5.0.2 makes routing a pain. Traces never consistently "stuck" to each other the way I wanted it to. Thankfully, Kicad 5.1.6 was way more route-friendly. Unfortunately I couldn't really group the traces into fours that were aligned with the diode groups since some of the rows contained five switches instead of four. Nevertheless, clean routing was still possible and it still looks good as long as you don't look at it too hard. See below for pictures (you can see what I was talking about with the schematic matrix not being entirely 1-to-1 in dimension to the keyboard).
 
-![PCB](https://github.com/EriicLii/Keybored65/blob/master/images/pcb_0812.png)
+![PCB](https://github.com/N0S-Party/Staccato65/blob/master/images/pcb_0812.png)
 
-![Schematic](https://github.com/EriicLii/Keybored65/blob/master/images/sch_0812.png)
+![Schematic](https://github.com/N0S-Party/Staccato65/blob/master/images/schh_0812.png)
