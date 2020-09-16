@@ -1,5 +1,5 @@
 # Staccato65
-A 65% board with OLED and rotary encoder support, and a 3D printed case.
+A 65% board with OLED, rotary encoder support, and a 3D printed case.
 
 **Specs:** 
 * 3D printed case (top mounted)
