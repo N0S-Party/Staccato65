@@ -41,3 +41,5 @@ I haven't updated here in a while, but that doesn't mean I haven't been working 
 ![PCB](https://github.com/N0S-Party/Staccato65/blob/master/images/pcb_0812.png)
 
 ![Schematic](https://github.com/N0S-Party/Staccato65/blob/master/images/sch_0812.png)
+
+![Keyboard](https://github.com/N0S-Party/Staccato65/blob/master/images/1.png)
