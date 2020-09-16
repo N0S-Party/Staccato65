@@ -1,7 +1,8 @@
 # Staccato65
-My first attempt at making a keyboard PCB. A 65% board with OLED and rotary encoder support
+A 65% board with OLED and rotary encoder support, and a 3D printed case.
 
 **Specs:** 
+* 3D printed case (top mounted)
 * rotary encoder support
 * OLED screen
 * ATMega32u4 as microcontroller
