@@ -1,6 +1,8 @@
 # Staccato65
 A 65% board with OLED, rotary encoder support, and a 3D printed case.
 
+![Keyboard](https://github.com/N0S-Party/Staccato65/blob/master/images/1.png)
+
 **Specs:** 
 * 3D printed case (top mounted)
 * rotary encoder support
