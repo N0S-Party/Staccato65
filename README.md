@@ -4,6 +4,10 @@
 
 A 65% board with OLED, rotary encoder support, and a 3D printed case.
 
+![Keyboard_black](https://github.com/N0S-Party/Staccato65/blob/master/images/black_keyboard.jpg)
+
+![Keyboard_black_white](https://github.com/N0S-Party/Staccato65/blob/master/images/black_white_keyboards.jpg)
+
 ![Keyboard](https://github.com/N0S-Party/Staccato65/blob/master/images/1.png)
 
 **Specs:** 
@@ -43,10 +47,14 @@ Got to making the key layout on the PCB. I'm thankful I have a spare top plate a
 ## Update 8/12
 I haven't updated here in a while, but that doesn't mean I haven't been working hard! I've finally managed to finish routing the PCB to a degree that I'm satisfied with. I might have to work a bit more on making the top right routing better, but I'd say the key routing was not too shabby. Fun fact, using Kicad 5.0.2 makes routing a pain. Traces never consistently "stuck" to each other the way I wanted it to. Thankfully, Kicad 5.1.6 was way more route-friendly. Unfortunately I couldn't really group the traces into fours that were aligned with the diode groups since some of the rows contained five switches instead of four. Nevertheless, clean routing was still possible and it still looks good as long as you don't look at it too hard. See below for pictures (you can see what I was talking about with the schematic matrix not being entirely 1-to-1 in dimension to the keyboard).
 
+PCB and Schematics pictured are outdated. Please see the repo files for the updated versions
 ![PCB](https://github.com/N0S-Party/Staccato65/blob/master/images/pcb_0812.png)
 
 ![Schematic](https://github.com/N0S-Party/Staccato65/blob/master/images/sch_0812.png)
 
+## Update 12/5
+Okay, I don't know if anyone was following this project, but while it did seem like I had a long hiatus, I was actually working quite a bit behind the scenes. 
+With the help of Sagar, and another friend of ours, we managed to get the first few prototypes out. Many revisions had to be done with the case due to 3D printing tolerances and the limitations of a 3D printer. Another issue that was caught was that the PCB plate cutout for the spacebar stabilizer was actually facing the wrong way. Unfortunately I only found this out after I got the first batch delivered, so I just had to file down the troublesome cutout by a few milimeters. Ordering from JLC PCB, the cumulative costs of PCB + plate + parts is about 70 dollars, assuming you order a batch of 10. Surprisingly, we managed to get a small groupbuy going and will be making 10 keyboards for us and a few other friends. In terms of regrets, I maybe should have opted to pay for assembly costs from the fab as well, since soldering a keyboard takes about 4 hours total. But hey, I'm really good at drag soldering now at least. As for actual release, I'm not too confident in my PCB design skills yet to release a product to members of the community. If I ever had to refine this design for a round 2, I'd probably add ESD protection, fix the plate and also make some of the footprint placements nicer. Overall, I plan to make a macropad as my next project. The reasoning is so I could try out more experimental features that I've had in mind while keeping the risk low. We also hope to make a case out of metal, which may be a challenge in itself. 
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
